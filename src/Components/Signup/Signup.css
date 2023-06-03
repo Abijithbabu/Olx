@@ -35,4 +35,14 @@
     justify-content: center;
     cursor: pointer;
   }
-  
+
+  input:invalid {
+    animation: shake 300ms;
+    color:#c01616
+  }
+
+  @keyframes shake {
+    25% {transform: translate(4px);}
+    50% {transform: translate(-4px);}
+    75% {transform: translate(4px);}
+  }

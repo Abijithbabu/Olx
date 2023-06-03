@@ -34,7 +34,7 @@ function Header() {
           <Arrow></Arrow>
         </div>
         <div className="loginPage">
-          <span>Login</span>
+          <a href='/signup'>Login</a>
           <hr />
         </div>
 
